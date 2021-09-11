@@ -147,7 +147,10 @@ body {
     }
     .progress{
         width: 300px !important;
-        height: 10px !important;
+        height: 15px !important;
+    }
+    .progress-value{
+      height: 30px;
     }
     .et-main{
         height: 100vh !important;
