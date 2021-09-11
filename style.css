@@ -1,0 +1,302 @@
+body {
+    font-family: "Century Gothic", "Lato", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+    color: rgb(59, 56, 56) !important;
+  }
+  
+  .et-hero-tabs,
+  .et-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+    position: relative;
+    color: rgb(228, 222, 222);
+    background: rgb(95, 94, 94);
+    text-align: center;
+    padding: 0 2em;
+  }
+  .et-hero-tabs h1,
+  .et-slide h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: black;
+    letter-spacing: 1rem;
+  }
+  .et-hero-tabs h3,
+  .et-slide h3 {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    opacity: 0.6;
+  }
+  
+  .et-hero-tabs-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: rgb(224, 220, 220);
+    z-index: 10;
+  }
+  .et-hero-tabs-container--top {
+    position: fixed;
+    top: 0;
+  }
+  
+  .et-hero-tab {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    color: rgb(5, 5, 5);
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    font-size: 0.8rem;
+  }
+  .et-hero-tab:hover {
+    color: white;
+    background: rgba(211, 136, 99, 0.8);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  .et-hero-tab-slider {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    background: #cc8e53;
+    -webkit-transition: left 0.3s ease;
+    transition: left 0.3s ease;
+  }
+  
+  @media (min-width: 800px) {
+    .et-hero-tabs h1,
+  .et-slide h1 {
+      font-size: 3rem;
+    }
+    .et-hero-tabs h3,
+  .et-slide h3 {
+      font-size: 1rem;
+    }
+  
+    .et-hero-tab {
+      font-size: 1rem;
+    }
+
+ 
+  
+  }
+  
+  @media only screen and (max-width: 768px){
+
+  
+    .et-hero-tabs,
+    .et-slide {
+        height: 120vh;
+    
+    }
+    .et-about{
+        margin-top: 70% !important;
+        height: 120vh;
+    }
+    .tab-django{
+      margin-top: 200px;
+    }
+    /* .et-slide-project{
+        height: 300vh !important;
+    } */
+    .et-slide3{
+        height: 200vh !important;
+        margin-top: 0;
+        bottom: 2px;
+    }
+    .progress{
+        width: 300px !important;
+        height: 10px !important;
+    }
+    .et-main{
+        height: 100vh !important;
+    }
+  
+  }
+.shiny {
+    background-image: -webkit-linear-gradient(left, white 25%, #fde071 37.5%, #ef9671, #996a6e 62.5%, white 75%);
+    background-image: linear-gradient(90deg, white 25%, #fde071 37.5%, #ef9671, #996a6e 62.5%, white 75%);
+    background-position: right center;
+    background-size: 400% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    transition: color 200ms linear;
+  }
+
+
+
+.shiny-two {
+    background-image: -webkit-linear-gradient(left, white 25%, #7cbbe6 37.5%, #87d8ca, #bad5f5 62.5%, white 75%);
+    background-image: linear-gradient(90deg, white 25%, #6eb7e7 37.5%, #87d8ca, #bad5f5 62.5%, white 75%);
+    background-position: right center;
+    background-size: 400% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    transition: color 200ms linear;
+  }
+  
+  .shiny:hover {
+    background-position: left center;
+    color: #ef9671;
+    transition: background-position 2000ms ease-out;
+  }
+  .shiny-two:hover {
+    background-position: left center;
+    color: #ef9671;
+    transition: background-position 2000ms ease-out;
+  }
+
+  ul{
+      text-align: left;
+      font-size: 100%;
+  }
+  .im-image img{
+      border-radius: 7px;
+      height: 100%;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .im-para-project{
+      text-align: justify;
+      font-size: 100%;
+  }
+  .et-slide-project{
+      height: 170vh !important;
+  }
+
+  
+.shiny-link {
+    background-image: -webkit-linear-gradient(left, white 25%, #7cbbe6 37.5%, #87d8ca, #bad5f5 62.5%, white 75%);
+    background-image: linear-gradient(90deg, white 25%, #6eb7e7 37.5%, #87d8ca, #bad5f5 62.5%, white 75%);
+    background-position: right center;
+    background-size: 400% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    transition: color 200ms linear;
+  }
+  
+  .shiny-link:hover {
+    background-position: left center;
+    color: #ef9671;
+    transition: background-position 2000ms ease-out;
+  }
+  .project-heading{
+      cursor: pointer;
+  }
+
+  
+  .progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 30px;
+    width: 500px;
+  }
+  
+  .progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background-color: #20bf55;
+    background-image :linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+        height: 20px;
+    width: 0;
+  }
+  
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 97%; }
+  }
+  @keyframes load2 {
+    0% { width: 0; }
+    100% { width: 95%; }
+  }
+  @keyframes load3 {
+    0% { width: 0; }
+    100% { width: 85%; }
+  }
+  @keyframes load4 {
+    0% { width: 0; }
+    100% { width: 95%; }
+  }
+  @keyframes load5 {
+    0% { width: 0; }
+    100% { width: 80%; }
+  }
+  .skill-text{
+      font-size: 1.5rem !important;
+      color: rgb(160, 197, 226);
+      font-weight: 600;
+
+  }
+
+  .contact h1{
+    letter-spacing: 1px !important;
+    margin-top: 5% !important;
+    text-align: left;
+    font-size: 180% !important;
+    color: rgb(115, 193, 230);
+
+
+  }
+  .contact a{
+    text-decoration: none;
+    color: white;
+  }
+  .contact a:hover{
+    text-decoration: none;
+    color: rgb(163, 194, 241) !important;
+  }
